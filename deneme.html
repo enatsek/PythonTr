@@ -1,0 +1,53 @@
+<!DOCTYPE html> <html> <head> </head> <body><H1>ANA BAŞLIK
+</H1><p> <a href="javascript:myFunction('Div1')">Bölüm 1 Başlığı
+</a> <div id="Div1" style="margin-left:10%;"><pre><code>Bölüm 1 Ayrıntıları
+Bölüm 1 AyrıntılarıBölüm 1 Ayrıntıları
+Bölüm 1 AyrıntılarıBölüm 1 AyrıntılarıBölüm 1 Ayrıntıları
+Bölüm 1 Ayrıntıları
+Bölüm 1 AyrıntılarıBölüm 1 Ayrıntıları
+Bölüm 1 AyrıntılarıBölüm 1 Ayrıntıları
+Bölüm 1 Ayrıntıları
+</code> </pre> </div> </p>
+<p> <a href="javascript:myFunction('Div2')">Bölüm 2 Başlığı
+</a> <div id="Div2" style="margin-left:10%;"><pre><code>Bölüm 2 Ayrıntıları 
+1
+2
+3
+4
+5
+</code> </pre> </div> </p>
+<p> <a href="javascript:myFunction('Div3')">Bölüm 3 Başlığı
+</a> <div id="Div3" style="margin-left:10%;"><pre><code>ĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ŞŞŞŞŞŞŞŞŞŞŞŞŞŞŞŞŞŞŞŞŞŞ
+İİİİİİİİİİİİİİİİİİİİİİ
+ÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖ
+ÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇ
+ğğğğğğğğğğğğğğğğğğğğğğ
+üüüüüüüüüüüüüüüüüüüüüü
+şşşşşşşşşşşşşşşşşşşşşş
+ıııııııııııııııııııııı
+öööööööööööööööööööööö
+çççççççççççççççççççççç
+</code> </pre> </div> </p>
+<p> <a href="javascript:myFunction('Div4')">Bölüm 4 Başlığı
+</a> <div id="Div4" style="margin-left:10%;"><pre><code>444444444444444444444444444444
+4444444444
+</code> </pre> </div> </p>
+<br /><br /><br /><script>
+function myFunction(divid) {
+  var x = document.getElementById(divid);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+var i;
+var str;
+
+for (i=1; i<5; i++) {
+    str = "Div" + i.toString();
+    myFunction(str);
+}
+</script></body> </html>
