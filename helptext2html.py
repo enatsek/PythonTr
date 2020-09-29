@@ -31,7 +31,7 @@ Program çıkış kodları:
 12 -> Çıktı HTML dosyası zaten var, kullanıcı üzerine yazdırmak istemedi.
 
 
-    Copyright (C) 2020 Exforge exforge@karasite.com
+    Copyright (C) 2020 Exforge exforge@x386.xyz
     
     Bu program özgür yazılımdır: Özgür Yazılım Vakfı tarafından yayımlanan 
     GNU Genel Kamu Lisansı’nın sürüm 3 ya da daha sonraki sürümlerinin 
